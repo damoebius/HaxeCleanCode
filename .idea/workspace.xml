@@ -1,7 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7016341-2445-4fb3-9766-4a70f6906076" name="Default" comment="" />
+    <list default="true" id="d7016341-2445-4fb3-9766-4a70f6906076" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ClassInitializer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/RearrangerIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowComments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowFields.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowMatchedRules.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowParamNames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowParamTypes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowRules.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ShowTypeAfterMethod.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/StaticClassInitializer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/AbstractAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/AndNotAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/AtomicAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/AttributeGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ChoiceObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ChoicePanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/ClassAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassContentsEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassInitializerEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ClassMemberSettingsPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ClassOrderSettingsPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/CommentFillString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/CommentRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/CommentRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/CommentRuleInstanceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/CommentUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/CommonAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/CommonRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/Constraints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/DefaultRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/DefaultRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/EmitAlwaysCommentRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/rearrangement/Emitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/EnumAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ExtractedMethodsPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/FieldAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/FieldEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/FileStructurePopup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/FinalAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/ForceBlankLineSetting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/rearrangement/GenericRearranger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/GetterSetterDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/HeaderRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/HeaderTrailerRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/IFilePopupEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/IHasGetterSetterDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/IHasScrollPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/IListManagerObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/IListManagerObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/ILiveRearranger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/IPopupTreeRangeEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/IPrioritizableRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/IRelatableEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/IRestrictMethodExtraction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/IRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/IRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/IconBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/IconUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ImplementedAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ImplementingAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/InitToAnonClassAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/InitializerAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/InnerClassAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/IntTextField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/IntegerAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/InterfaceAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/InterfaceInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/InterfaceRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/ItemAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/ListManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/LiveRearrangerAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/LiveRearrangerActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/LiveRearrangerDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/LiveRearrangerPopup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/MaxParamsAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/MemberAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/MethodAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/MethodEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/MethodSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/MethodUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/MinParamsAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/MiscellaneousTextEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ModifierConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/ModifierUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/rearrangement/Mover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/NameAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/NativeAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/OverriddenAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/OverridingAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/rearrangement/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/PopupTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/PopupTreeComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/PrecedingCommentRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/PrimaryMethodSetting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ProjectTreeActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ProtectionLevelAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/PsiFileEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/RangeEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/Rearranger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/RearrangerAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/RearrangerActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RearrangerSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/RearrangerSettingsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/RearrangerTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/RegexUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RelatedByNameMethodsSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/RelatedByNamePane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RelatedMethodsSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ReturnTypeAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/SecondaryMethodSetting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/SettingsPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/SortOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/rearrangement/Spacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/SpacingPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/StaticAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/StringAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/StringTextArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/StringTextField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/SubsequentCommentRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/ruleinstance/SurroundingCommentRuleInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/SynchronizedAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/TableMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/configuration/TableSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/TestOverImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/TrailerRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/TransferableTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/TransientAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/TreeDragSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/popup/TreeDropTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/TypeAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/VolatileAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/WaitableBoolean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/defaultConfiguration.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HaxeCodeCleaner/CleanAction.class" afterPath="$PROJECT_DIR$/out/production/HaxeCodeCleaner/CleanAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CleanAction.java" afterPath="$PROJECT_DIR$/src/CleanAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="HaxeCodeCleaner.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,12 +165,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1260">
+              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +180,31 @@
       <file leaf-file-name="CleanAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CleanAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38297874" vertical-offset="0" max-vertical-offset="376">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.47826087" vertical-offset="663" max-vertical-offset="1008">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/CommentUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="4464">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="e#2189#2190#0" expanded="true" />
+                <element signature="e#2237#2238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RearrangerSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RearrangerSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1078" max-vertical-offset="11268">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,6 +219,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/NameAttribute.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/Parser.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassContentsEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/ClassInitializerEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/FieldEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/IPopupTreeRangeEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/IRelatableEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/MethodEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/MiscellaneousTextEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/PsiFileEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry/RangeEntry.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/CommentFillString.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/CommentRule.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RelatedMethodsSettings.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/AndNotAttribute.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/IntegerAttribute.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ProtectionLevelAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/SortOptions.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/StringAttribute.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/ClassAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/CommonAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/FieldAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/GetterSetterDefinition.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/InnerClassAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/InterfaceAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/ItemAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/attributeGroups/MethodAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ImplementingAttribute.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/LiveRearrangerActionHandler.java" />
+        <option value="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RearrangerSettings.java" />
         <option value="$PROJECT_DIR$/src/CleanAction.java" />
       </list>
     </option>
@@ -84,7 +279,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -133,14 +328,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tamina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaxeCodeCleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaxeCodeCleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tamina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaxeCodeCleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaxeCodeCleaner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,81 +411,25 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner" />
+      <recent name="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings" />
+      <recent name="$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/entry" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tamina.intellij.codecleaner" />
+    </key>
   </component>
   <component name="RunManager" selected="Plugin.Plugin">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="HaxeCodeCleaner" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -247,6 +450,57 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="HaxeCodeCleaner" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -284,11 +538,39 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="false" name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="HaxeCodeCleaner" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -308,30 +590,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2572079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -355,7 +637,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -366,6 +650,22 @@
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CleanAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="918">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
@@ -373,8 +673,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CleanAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38297874" vertical-offset="0" max-vertical-offset="376">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="918">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Téléchargements/idea-IC-163.12024.16/lib/openapi.jar!/com/intellij/openapi/actionSystem/CommonDataKeys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="522">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/LiveRearrangerActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="3510">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/atomicAttributes/ImplementingAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/settings/RearrangerSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1078" max-vertical-offset="11268">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Téléchargements/idea-IC-163.12024.16/lib/idea.jar!/com/intellij/openapi/wm/impl/FocusManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18241042" vertical-offset="11248" max-vertical-offset="16524">
+          <caret line="721" column="16" selection-start-line="721" selection-start-column="16" selection-end-line="721" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/util/CommentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="4464">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tamina/intellij/codecleaner/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1260">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CleanAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47826087" vertical-offset="663" max-vertical-offset="1008">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
